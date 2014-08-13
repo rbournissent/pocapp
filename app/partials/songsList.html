@@ -1,0 +1,3 @@
+<ul class="songList" data-ng-repeat="song in songsCollection | filter : filterBy" data-ng-show="expanded">
+  <li id="{{song.id}}">{{song.title}} - <em>{{song.album  || 'Unknown album'}} ({{song.year || 'Unknown year'}}) / {{song.genre  || 'Unknown genre'}}</em></li>
+</ul>

@@ -1,0 +1,9 @@
+{
+  "name": "pocapp",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bower": ""
+  }
+}

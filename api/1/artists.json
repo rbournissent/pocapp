@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "Coldplay",
+    "image": "http://t1.gstatic.com/images?q=tbn:ANd9GcSZt-ywQ4m7BjDfMk8kHc-ZRJx4ir_ur_7K-hmMyEvnmCOG5GdS",
+    "genre": "Alternative Rock",
+    "origin": "London, UK"
+},{
+    "id": 2,
+    "name": "Queen",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTEHdzlC5re6C2JITB9j42oBypZ20mDhvVXHkmxLAbiAe8Bs8grMg",
+    "genre": "Rock",
+    "origin": "London, UK"
+},{
+    "id": 3,
+    "name": "Guns N Roses",
+    "image": "http://www.theclinic.cl/wp-content/uploads/2011/12/guns-n-roses12.jpg",
+    "genre": "",
+    "origin": "Los Angeles, USA"
+},{
+    "id": 4,
+    "name": "Dave Matthews Band",
+    "image": "",
+    "genre": "Rock",
+    "origin": "Charlottesville, USA"
+}]

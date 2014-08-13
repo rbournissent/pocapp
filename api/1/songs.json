@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "title": "Violet Hill",
+    "artist_id": 1,
+    "album": "Viva la vida",
+    "genre": "Alternative Rock",
+    "year": "2008"
+},{
+    "id": 2,
+    "title": "Viva la vida",
+    "artist_id": 1,
+    "album": "Viva la vida",
+    "genre": "Alternative Rock",
+    "year": "2008"
+},{
+    "id": 3,
+    "title": "Don't stop me now",
+    "artist_id": 2,
+    "album": "",
+    "genre": "Rock",
+    "year": ""
+},{
+    "id": 4,
+    "title": "Bicycle Race",
+    "artist_id": 2,
+    "album": "",
+    "genre": "Rock",
+    "year": "1978"
+}]

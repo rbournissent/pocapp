@@ -1,0 +1,20 @@
+<div>
+	<div class="input-pocapp">
+		<h6>Filter by artist's name</h6>
+		<input type="text" data-ng-model="artistFilter" />
+	</div>
+	<div class="input-pocapp">
+		<h6>Filter by song (any field)</h6>
+		<input type="text" data-ng-model="songFilter" />
+	</div>
+</div>
+
+<div class="row marketing">
+  <ul class="artist" data-ng-repeat="artist in artists | filter : {name: artistFilter}">
+      <li id="{{artist.id}}" data-ng-click="expanded = !expanded" data-ng-init="expanded = false"><a href=""><strong>{{artist.name}}</strong></a>
+      	<songs songs-collection="artist.songs" expanded="expanded || songFilter " filter-by="songFilter"></songs>
+      </li>
+  </ul>
+</div>
+
+<!-- {{artists | json}} -->
